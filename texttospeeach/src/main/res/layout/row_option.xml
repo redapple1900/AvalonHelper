@@ -1,0 +1,43 @@
+<com.redapple.avalon.avalonhelper.texttospeeach.CheckableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="?android:attr/listPreferredItemHeight">
+
+  <ImageView
+      android:id="@+id/character_image_view"
+      android:layout_width="48dp"
+      android:layout_height="48dp"
+      android:layout_marginLeft="6dip"
+      android:layout_centerVertical="true"
+      android:scaleType="fitCenter"/>
+
+  <TextView
+      android:id="@android:id/text1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6dip"
+      android:layout_marginLeft="6dip"
+      android:layout_toRightOf="@+id/character_image_view"
+      android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+  <TextView
+      android:id="@android:id/text2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@android:id/text1"
+      android:layout_below="@android:id/text1"
+      android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+  <CheckBox
+      android:id="@+id/checkbox"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginRight="6dip"
+      android:layout_alignParentRight="true"
+      android:layout_centerVertical="true"
+      android:clickable="false"
+      android:focusable="false"
+      android:focusableInTouchMode="false"/>
+
+</com.redapple.avalon.avalonhelper.texttospeeach.CheckableRow>

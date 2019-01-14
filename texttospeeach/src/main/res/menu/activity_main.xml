@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_speak"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_speak"/>
+    <item
+        android:id="@+id/menu_shut_up"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_shut_up"/>
+    <item
+        android:id="@+id/menu_random_number"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_random_number"/>
+</menu>
